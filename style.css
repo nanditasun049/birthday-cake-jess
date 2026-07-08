@@ -161,7 +161,7 @@ body {
 }
 
 /* This targets screen sizes typically used by iPhones and mobile devices */
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   .cake-container {
     /* Shrinks the entire cake and its candles to 75% of their original size */
     transform: scale(0.75); 
@@ -170,7 +170,7 @@ body {
     transform-origin: center; 
     
     /* Pulls things in closer vertically so it doesn't leave huge empty gaps */
-    margin: 10px 0; 
+    margin: 20px 0; 
   }
 
   #mainTitle {
