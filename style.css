@@ -166,15 +166,16 @@ body {
     /* Shrinks the entire cake and moves it downward */
     transform: translateY(150px) scale(0.55); 
     transform-origin: center;
-    margin: 0 !important;
   }
   #mainTitle {
     /* Makes the title text slightly smaller for phone screens */
-    font-size: 1.8rem !important; 
+    font-size: 1.8rem !important;
+    transform: translateY(80px);
   }
 
   #subTitle {
     /* Makes the subtitle text slightly smaller for phone screens */
     font-size: 1.0rem !important; 
+    transform: translateY(80px);
   }
 }
