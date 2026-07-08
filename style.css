@@ -166,6 +166,7 @@ body {
     /* Shrinks the entire cake and moves it downward */
     transform: translateY(150px) scale(0.55); 
     transform-origin: center;
+    margin: 0 !important;
   }
   #mainTitle {
     /* Makes the title text slightly smaller for phone screens */
