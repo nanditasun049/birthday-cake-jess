@@ -44,7 +44,7 @@
       const birthdayText = document.getElementById("birthdayText");
       birthdayText.innerHTML = `
         <div id="mainTitle">Happy Birthday, ${name}</div>
-        <div id="subTitle">tap the candles to blow them out hehehe 😏🔊</div>
+        <div id="subTitle">tap the candles to blow them out hehe 😏🔊</div>
       `;
 
       const cake = document.getElementById("cake");
@@ -136,7 +136,11 @@
         setTimeout(() => {
           const subTitle = document.getElementById("subTitle");
           subTitle.textContent = `YAYYYYY big twenty two 🎉 Love, Nanz`;
-        }, 1100);
+        }, 1300);
+        setTimeout(() => {
+          const subTitle = document.getElementById("subTitle");
+          subTitle.textContent = `Reload the page to make another wish! ☀️`;
+        }, 11000);
       }
 
       // Detect clicks or taps anywhere on the screen container
