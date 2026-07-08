@@ -164,13 +164,13 @@ body {
 @media (max-width: 450px) {
   .cake-container {
     /* Shrinks the entire cake and its candles to 75% of their original size */
-    transform: scale(0.75); 
+    transform: scale(0.55); 
     
     /* Keeps the cake centered perfectly while scaling down */
     transform-origin: center; 
     
     /* Pulls things in closer vertically so it doesn't leave huge empty gaps */
-    margin: 1px 0; 
+    margin: 00px 0; 
   }
 
   #mainTitle {
@@ -181,11 +181,5 @@ body {
   #subtitle {
     /* Makes the subtitle text slightly smaller for phone screens */
     font-size: 1.2rem !important; 
-  }
-
-  #lyricsBox {
-    /* Makes the lyrics slightly smaller so they don't wrap into ugly double lines */
-    font-size: 18px !important; 
-    padding: 0 15px; /* Adds a tiny bit of breathing room on the left/right edges */
   }
 }
